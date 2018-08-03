@@ -12,3 +12,14 @@
 6. 还原C:\Windows\System32\drivers\etc\hosts配置
 
 * 对于服务器环境下配置，将项目中的server.xml和tomcat.keystore直接复制到${TOMCAT.HOME}/conf路径下即可
+
+# 附： 
+阿里maven镜像
+```xml
+<mirror>
+        <id>nexus-aliyun</id>
+        <mirrorOf>central</mirrorOf>
+        <name>Nexus aliyun</name>
+        <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+</mirror>
+```
